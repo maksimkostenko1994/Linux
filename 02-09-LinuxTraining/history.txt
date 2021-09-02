@@ -1,0 +1,16 @@
+    1  history 
+    2  mkdir 02-09-LinuxTraining
+    3  cd 02-09-LinuxTraining/
+    4  curl -O https://raw.githubusercontent.com/aliaskov/whiteboard/master/nbviewer/notebooks/data/harrypotter/Book%201%20-%20The%20Philosopher\'s%20Stone.txt
+    5  ls -la
+    6  mv Book%201%20-%20The%20Philosopher\'s%20Stone.txt HarryPooterAndPhilosopherStone.txt
+    7  ls -la
+    8  grep -i Harry HarryPooterAndPhilosopherStone.txt | wc -w > nameCount
+    9  cat nameCount 
+   10  sed 's/Harry/Max/giw myBook' HarryPooterAndPhilosopherStone.txt 
+   11  ls -la
+   12  grep -i Max myBook | wc -w >> nameCount
+   13  cat myBook 
+   14  ls -la
+   15  cat nameCount 
+   16  history > history.txt
