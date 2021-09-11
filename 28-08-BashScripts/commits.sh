@@ -9,3 +9,5 @@ do
   git push --set-upstream origin 28-08-BashScripts
   echo "Commit number $run. Made - $now"
 done
+
+# my comment
